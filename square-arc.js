@@ -6,11 +6,11 @@ const color = require('color')
 random.setSeed(random.getRandomSeed())
 
 const settings = {
-  // dimensions: [ 2048, 2048 ],
+  dimensions: [ 2048, 2048 ],
   suffix: random.getSeed(),
 }
 
-const count = 100
+const count = 20
 
 const getGridInfo = ({ count, width, height }) => {
   const size = width / count
